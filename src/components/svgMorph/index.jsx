@@ -1,7 +1,7 @@
 "use client";
 import { interpolate } from "flubber";
-import React, { useState, useEffect } from "react";
-import { motion, animate, useMotionValue, useTransform } from "framer-motion";
+import React, { useState } from "react";
+import { motion, animate, useTransform, useMotionValue } from "motion/react";
 
 export default function SVGMorph({ paths }) {
   const [pathIndex, setPathIndex] = useState(0);
