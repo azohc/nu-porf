@@ -1,5 +1,8 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": false,
+  "files.associations": {
+    "*.svg": "html"
+  },
+  "editor.formatOnSave": true,
   "prettier.semi": false
 }
